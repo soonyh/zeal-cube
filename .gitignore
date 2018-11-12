@@ -17,6 +17,7 @@ Thumbs.db
 *.log
 *.log.*
 *.json.gzip
+*.code-workspace
 node_modules/
 .buildpath
 .settings
