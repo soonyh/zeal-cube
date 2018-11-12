@@ -1,7 +1,7 @@
 {
   "name": "antd",
   "version": "1.0.0",
-  "title": "Antd-x",
+  "title": "antd-x",
   "description": "Fork Ant design@3.10.7 and integrate custom components",
   "homepage": "https://github.com/soonyh/antd-x",
   "keywords": [
