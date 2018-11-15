@@ -1,21 +1,21 @@
 {
-  "name": "antd-x",
+  "name": "zeal-cube",
   "version": "1.0.8",
-  "title": "antd-x",
+  "title": "zeal-cube",
   "description": "Fork Ant design@3.10.7 and integrate custom components",
-  "homepage": "https://github.com/soonyh/antd-x",
+  "homepage": "https://github.com/soonyh/zeal-cube",
   "keywords": [
-    "antd-x"
+    "zeal-cube"
   ],
   "contributors": [
     "ant"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/soonyh/antd-x"
+    "url": "https://github.com/soonyh/zeal-cube"
   },
   "bugs": {
-    "url": "https://github.com/soonyh/antd-x/issues"
+    "url": "https://github.com/soonyh/zeal-cube/issues"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
