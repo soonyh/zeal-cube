@@ -8,6 +8,8 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "target": "es6",
+    "allowJs":true,
+    "declaration": false,
     "lib": [
       "dom",
       "es7"
