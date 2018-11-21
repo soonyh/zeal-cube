@@ -15,7 +15,7 @@ title:
 Decent icon make information more clear and more friendly.
 
 ````jsx
-import { Alert, Icon } from 'antd';
+import { Alert, Icon } from 'zeal-cube';
 
 const icon = <Icon type="smile" />;
 

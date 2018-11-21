@@ -13,7 +13,7 @@ title:
 `message` provides promise interface for `onClose`. The above example will display a new message when old message is about to finish.
 
 ````jsx
-import { message, Button } from 'antd';
+import { message, Button } from 'zeal-cube';
 
 const success = () => {
   message.loading('Action in progress..', 2.5)

@@ -14,7 +14,7 @@ title:
 You can select and upload a whole directory.
 
 ````jsx
-import { Upload, Button, Icon } from 'antd';
+import { Upload, Button, Icon } from 'zeal-cube';
 
 ReactDOM.render(
   <Upload action="//jsonplaceholder.typicode.com/posts/" directory>

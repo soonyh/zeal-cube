@@ -14,7 +14,7 @@ title:
 More content can be hosted.
 
 ````jsx
-import { Card } from 'antd';
+import { Card } from 'zeal-cube';
 
 const tabList = [{
   key: 'tab1',

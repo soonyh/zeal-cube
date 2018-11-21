@@ -14,7 +14,7 @@ title:
 Multiple and checkable.
 
 ````jsx
-import { TreeSelect } from 'antd';
+import { TreeSelect } from 'zeal-cube';
 
 const SHOW_PARENT = TreeSelect.SHOW_PARENT;
 

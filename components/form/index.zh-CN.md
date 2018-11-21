@@ -218,8 +218,8 @@ validateFields(['field1', 'field2'], options, (errors, values) => {
 ## 在 TypeScript 中使用
 
 ```jsx
-import { Form } from 'antd';
-import { FormComponentProps } from 'antd/lib/form';
+import { Form } from 'zeal-cube';
+import { FormComponentProps } from 'zeal-cube/lib/form';
 
 interface UserFormProps extends FormComponentProps {
   age: number;

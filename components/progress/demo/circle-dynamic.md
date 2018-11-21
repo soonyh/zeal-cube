@@ -14,7 +14,7 @@ title:
 A dynamic progress bar is better.
 
 ````jsx
-import { Progress, Button } from 'antd';
+import { Progress, Button } from 'zeal-cube';
 
 const ButtonGroup = Button.Group;
 

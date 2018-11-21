@@ -14,7 +14,7 @@ title:
 You can customize icons for different nodes.
 
 ````jsx
-import { Tree, Icon } from 'antd';
+import { Tree, Icon } from 'zeal-cube';
 
 const TreeNode = Tree.TreeNode;
 

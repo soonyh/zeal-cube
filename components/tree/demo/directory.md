@@ -14,7 +14,7 @@ title:
 Built-in directory tree. `multiple` support `ctrl(Windows)` / `command(Mac)` selection.
 
 ````jsx
-import { Tree } from 'antd';
+import { Tree } from 'zeal-cube';
 
 const DirectoryTree = Tree.DirectoryTree;
 const TreeNode = Tree.TreeNode;

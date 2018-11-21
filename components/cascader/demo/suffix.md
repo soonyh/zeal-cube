@@ -15,7 +15,7 @@ title:
 Cascade selection box for selecting province/city/district.
 
 ````jsx
-import { Cascader, Icon } from 'antd';
+import { Cascader, Icon } from 'zeal-cube';
 
 const options = [{
   value: 'zhejiang',

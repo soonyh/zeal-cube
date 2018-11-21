@@ -14,7 +14,7 @@ Switch 失效状态。
 Disabled state of `Switch`.
 
 ````jsx
-import { Switch, Button } from 'antd';
+import { Switch, Button } from 'zeal-cube';
 
 class App extends React.Component {
   state = {

@@ -15,7 +15,7 @@ When the timeline is incomplete and ongoing, put a ghost node at last. Set `pend
 `reverse={true}` is used for reversing nodes.
 
 ````jsx
-import { Timeline, Button } from 'antd';
+import { Timeline, Button } from 'zeal-cube';
 
 class PendingTimeLine extends React.Component {
   state = {

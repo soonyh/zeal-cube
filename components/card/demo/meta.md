@@ -14,7 +14,7 @@ title:
 A Card that supports `cover`, `avatar`, `title` and `description`.
 
 ````jsx
-import { Card, Icon, Avatar } from 'antd';
+import { Card, Icon, Avatar } from 'zeal-cube';
 
 const { Meta } = Card;
 

@@ -14,7 +14,7 @@ title:
 We can set presetted ranges to RangePicker to improve user experience.
 
 ````jsx
-import { DatePicker } from 'antd';
+import { DatePicker } from 'zeal-cube';
 import moment from 'moment';
 
 const RangePicker = DatePicker.RangePicker;

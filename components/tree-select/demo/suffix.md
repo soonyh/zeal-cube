@@ -15,7 +15,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { TreeSelect, Icon } from 'antd';
+import { TreeSelect, Icon } from 'zeal-cube';
 
 const TreeNode = TreeSelect.TreeNode;
 const icon = <Icon type="smile" />;

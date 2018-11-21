@@ -14,7 +14,7 @@ title:
 Manually updateing and destroying a modal from `Modal.method`.
 
 ````jsx
-import { Modal, Button } from 'antd';
+import { Modal, Button } from 'zeal-cube';
 
 function countDown() {
   let secondsToGo = 5;

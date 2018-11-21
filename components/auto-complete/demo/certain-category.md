@@ -15,7 +15,7 @@ Demonstration of [Lookup Patterns: Certain Category](https://ant.design/docs/spe
 Basic Usage, set datasource of autocomplete with `dataSource` property.
 
 ````jsx
-import { Icon, Input, AutoComplete } from 'antd';
+import { Icon, Input, AutoComplete } from 'zeal-cube';
 
 const Option = AutoComplete.Option;
 const OptGroup = AutoComplete.OptGroup;

@@ -14,7 +14,7 @@ title:
 Cascade selection box of different sizes.
 
 ````jsx
-import { Cascader } from 'antd';
+import { Cascader } from 'zeal-cube';
 
 const options = [{
   value: 'zhejiang',

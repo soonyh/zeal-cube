@@ -14,7 +14,7 @@ title:
 You can disable showing arrow icon by passing `showArrow={false}` to `CollapsePanel` component.
 
 ````jsx
-import { Collapse } from 'antd';
+import { Collapse } from 'zeal-cube';
 
 const Panel = Collapse.Panel;
 

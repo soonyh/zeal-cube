@@ -13,7 +13,7 @@ title:
 Hide default plus icon, and bind event for customized trigger.
 
 ````jsx
-import { Tabs, Button } from 'antd';
+import { Tabs, Button } from 'zeal-cube';
 
 const TabPane = Tabs.TabPane;
 

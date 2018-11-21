@@ -14,7 +14,7 @@ title:
 Customize the background, border and margin styles for each panel.
 
 ````jsx
-import { Collapse } from 'antd';
+import { Collapse } from 'zeal-cube';
 
 const Panel = Collapse.Panel;
 

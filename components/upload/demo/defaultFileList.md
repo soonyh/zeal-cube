@@ -14,7 +14,7 @@ title:
 Use `defaultFileList` for uploaded files when page init.
 
 ````jsx
-import { Upload, Button, Icon } from 'antd';
+import { Upload, Button, Icon } from 'zeal-cube';
 
 const props = {
   action: '//jsonplaceholder.typicode.com/posts/',

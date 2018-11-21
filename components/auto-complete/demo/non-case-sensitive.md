@@ -14,7 +14,7 @@ title:
 A non-case-sensitive AutoComplete
 
 ````jsx
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'zeal-cube';
 
 const dataSource = ['Burns Bay Road', 'Downing Street', 'Wall Street'];
 

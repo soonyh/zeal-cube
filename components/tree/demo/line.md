@@ -14,7 +14,7 @@ title:
 Tree With Line
 
 ````jsx
-import { Tree } from 'antd';
+import { Tree } from 'zeal-cube';
 
 const TreeNode = Tree.TreeNode;
 

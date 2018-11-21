@@ -14,7 +14,7 @@ title:
 Basic drawer.
 
 ```jsx
-import { Drawer, Button } from 'antd';
+import { Drawer, Button } from 'zeal-cube';
 
 class App extends React.Component {
   state = { visible: false };

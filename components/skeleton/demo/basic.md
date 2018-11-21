@@ -14,7 +14,7 @@ title:
 Simplest Skeleton usage.
 
 ````jsx
-import { Skeleton } from 'antd';
+import { Skeleton } from 'zeal-cube';
 
 ReactDOM.render(<Skeleton />, mountNode);
 ````

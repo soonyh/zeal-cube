@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```jsx
-import { Anchor } from 'antd';
+import { Anchor } from 'zeal-cube';
 
 const { Link } = Anchor;
 

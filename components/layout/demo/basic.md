@@ -14,7 +14,7 @@ title:
 Classic page layouts.
 
 ````jsx
-import { Layout } from 'antd';
+import { Layout } from 'zeal-cube';
 
 const { Header, Footer, Sider, Content } = Layout;
 

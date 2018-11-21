@@ -14,7 +14,7 @@ title:
 Transfer with a search box.
 
 ````jsx
-import { Transfer } from 'antd';
+import { Transfer } from 'zeal-cube';
 
 class App extends React.Component {
   state = {

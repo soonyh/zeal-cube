@@ -14,7 +14,7 @@ title:
 Basic drawer.
 
 ```jsx
-import { Drawer, Button, Radio } from 'antd';
+import { Drawer, Button, Radio } from 'zeal-cube';
 
 const RadioGroup = Radio.Group;
 

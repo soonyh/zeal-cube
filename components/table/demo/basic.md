@@ -14,7 +14,7 @@ title:
 Simple table with actions.
 
 ````jsx
-import { Table, Divider, Tag } from 'antd';
+import { Table, Divider, Tag } from 'zeal-cube';
 
 const columns = [{
   title: 'Name',

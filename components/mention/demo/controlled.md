@@ -14,7 +14,7 @@ title:
 Controlled mode, for example, to work with `Form`.
 
 ````jsx
-import { Mention, Form, Button } from 'antd';
+import { Mention, Form, Button } from 'zeal-cube';
 
 const { toContentState, getMentions } = Mention;
 const FormItem = Form.Item;

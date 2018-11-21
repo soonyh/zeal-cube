@@ -14,7 +14,7 @@ title:
 The vertical Slider.
 
 ````jsx
-import { Slider } from 'antd';
+import { Slider } from 'zeal-cube';
 
 const style = {
   float: 'left',

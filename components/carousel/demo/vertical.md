@@ -14,7 +14,7 @@ title:
 Vertical pagination.
 
 ````jsx
-import { Carousel } from 'antd';
+import { Carousel } from 'zeal-cube';
 
 ReactDOM.render(
   <Carousel vertical>

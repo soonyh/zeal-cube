@@ -14,7 +14,7 @@ title:
 Specific them property `theme` to `twoTone` to render two-tone icons. You can also set the primary color.
 
 ````jsx
-import { Icon } from 'antd';
+import { Icon } from 'zeal-cube';
 
 ReactDOM.render(
   <div className="icons-list">

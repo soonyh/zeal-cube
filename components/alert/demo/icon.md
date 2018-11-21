@@ -14,7 +14,7 @@ title:
 Decent icon make information more clear and more friendly.
 
 ````jsx
-import { Alert } from 'antd';
+import { Alert } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

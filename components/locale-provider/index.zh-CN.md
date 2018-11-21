@@ -13,8 +13,8 @@ title: LocaleProvider
 LocaleProvider 使用 React 的 [context](https://facebook.github.io/react/docs/context.html) 特性，只需在应用外围包裹一次即可全局生效。
 
 ```jsx
-import { LocaleProvider } from 'antd';
-import zh_CN from 'antd/lib/locale-provider/zh_CN';
+import { LocaleProvider } from 'zeal-cube';
+import zh_CN from 'zeal-cube/lib/locale-provider/zh_CN';
 import 'moment/locale/zh-cn';
 ...
 

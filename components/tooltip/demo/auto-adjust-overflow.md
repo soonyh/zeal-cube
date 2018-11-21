@@ -15,7 +15,7 @@ debug: true
 Adjust popup placement automatically when popup is invisible
 
 ````jsx
-import { Tooltip, Button } from 'antd';
+import { Tooltip, Button } from 'zeal-cube';
 
 const wrapStyles = {
   overflow: 'hidden',

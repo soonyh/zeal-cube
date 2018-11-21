@@ -14,7 +14,7 @@ title:
 Search with remote data.
 
 ````jsx
-import { Select } from 'antd';
+import { Select } from 'zeal-cube';
 import jsonp from 'fetch-jsonp';
 import querystring from 'querystring';
 

@@ -14,7 +14,7 @@ title:
 Another type Tabs, which doesn't support vertical mode.
 
 ````jsx
-import { Tabs } from 'antd';
+import { Tabs } from 'zeal-cube';
 
 const TabPane = Tabs.TabPane;
 

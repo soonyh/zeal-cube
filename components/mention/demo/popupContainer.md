@@ -14,7 +14,7 @@ title:
 To set the container of the suggestion.
 
 ````jsx
-import { Mention, Popover, Button } from 'antd';
+import { Mention, Popover, Button } from 'zeal-cube';
 
 const { toString, toContentState } = Mention;
 

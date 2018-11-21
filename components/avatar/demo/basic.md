@@ -14,7 +14,7 @@ title:
 Three sizes and two shapes are available.
 
 ````jsx
-import { Avatar } from 'antd';
+import { Avatar } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

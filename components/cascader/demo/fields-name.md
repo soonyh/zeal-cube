@@ -14,7 +14,7 @@ title:
 Custom field names.
 
 ````jsx
-import { Cascader } from 'antd';
+import { Cascader } from 'zeal-cube';
 
 const options = [{
   code: 'zhejiang',

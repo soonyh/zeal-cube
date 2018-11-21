@@ -14,7 +14,7 @@ title:
 Select your favourite topics.
 
 ````jsx
-import { Tag } from 'antd';
+import { Tag } from 'zeal-cube';
 
 const CheckableTag = Tag.CheckableTag;
 

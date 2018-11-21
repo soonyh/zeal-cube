@@ -15,7 +15,7 @@ title:
 Test old icons before `3.9.0`.
 
 ````jsx
-import { Icon } from 'antd';
+import { Icon } from 'zeal-cube';
 
 const icons = [
   'step-backward',

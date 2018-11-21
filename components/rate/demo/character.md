@@ -14,7 +14,7 @@ title:
 Replace the default star to other character like alphabet, digit, iconfont or even Chinese word.
 
 ````jsx
-import { Rate, Icon } from 'antd';
+import { Rate, Icon } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

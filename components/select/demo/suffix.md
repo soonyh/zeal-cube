@@ -15,7 +15,7 @@ title:
 Basic Usage.
 
 ````jsx
-import { Select, Icon } from 'antd';
+import { Select, Icon } from 'zeal-cube';
 
 const smileIcon = <Icon type="smile" />;
 const mehIcon = <Icon type="meh" />;

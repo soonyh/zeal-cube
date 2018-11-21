@@ -14,7 +14,7 @@ title:
 Vertical RadioGroup, with more radios.
 
 ```jsx
-import { Radio, Input } from 'antd';
+import { Radio, Input } from 'zeal-cube';
 
 const RadioGroup = Radio.Group;
 

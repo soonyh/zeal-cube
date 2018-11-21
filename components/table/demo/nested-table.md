@@ -15,7 +15,7 @@ Showing more detailed info of every row.
 
 ````jsx
 
-import { Table, Badge, Menu, Dropdown, Icon } from 'antd';
+import { Table, Badge, Menu, Dropdown, Icon } from 'zeal-cube';
 
 const menu = (
   <Menu>

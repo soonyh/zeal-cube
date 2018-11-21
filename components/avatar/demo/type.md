@@ -14,7 +14,7 @@ title:
 Image, Icon and letter are supported, and the latter two kinds avatar can have custom colors and background colors.
 
 ````jsx
-import { Avatar } from 'antd';
+import { Avatar } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

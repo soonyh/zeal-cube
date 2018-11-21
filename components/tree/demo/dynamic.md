@@ -14,7 +14,7 @@ title:
 To load data asynchronously when click to expand a treeNode.
 
 ````jsx
-import { Tree } from 'antd';
+import { Tree } from 'zeal-cube';
 
 const TreeNode = Tree.TreeNode;
 

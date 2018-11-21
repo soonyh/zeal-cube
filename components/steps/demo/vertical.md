@@ -14,7 +14,7 @@ title:
 A simple step bar in the vertical direction.
 
 ````jsx
-import { Steps } from 'antd';
+import { Steps } from 'zeal-cube';
 
 const Step = Steps.Step;
 

@@ -14,7 +14,7 @@ title:
 Set orientation of divider to left or right.
 
 ````jsx
-import { Divider } from 'antd';
+import { Divider } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

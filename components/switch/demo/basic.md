@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ````jsx
-import { Switch } from 'antd';
+import { Switch } from 'zeal-cube';
 
 function onChange(checked) {
   console.log(`switch to ${checked}`);

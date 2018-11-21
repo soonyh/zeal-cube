@@ -15,7 +15,7 @@ title:
 Basic use case. Users can select or input a date in panel.
 
 ````jsx
-import { DatePicker, Icon } from 'antd';
+import { DatePicker, Icon } from 'zeal-cube';
 
 const smileIcon = <Icon type="smile" />;
 const { MonthPicker, RangePicker, WeekPicker } = DatePicker;

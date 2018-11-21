@@ -14,7 +14,7 @@ title:
 Render radios by configuring `options`.
 
 ```jsx
-import { Radio } from 'antd';
+import { Radio } from 'zeal-cube';
 
 const RadioGroup = Radio.Group;
 

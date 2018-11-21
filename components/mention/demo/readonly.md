@@ -14,7 +14,7 @@ title:
 Configurate `disabled` and `readOnly`.
 
 ````jsx
-import { Mention } from 'antd';
+import { Mention } from 'zeal-cube';
 
 const { toString } = Mention;
 

@@ -14,7 +14,7 @@ title:
 A group of radio components.
 
 ```jsx
-import { Radio } from 'antd';
+import { Radio } from 'zeal-cube';
 
 const RadioGroup = Radio.Group;
 

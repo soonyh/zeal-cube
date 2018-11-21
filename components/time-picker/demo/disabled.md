@@ -14,7 +14,7 @@ title:
 A disabled state of the `TimePicker`.
 
 ````jsx
-import { TimePicker } from 'antd';
+import { TimePicker } from 'zeal-cube';
 import moment from 'moment';
 
 ReactDOM.render(

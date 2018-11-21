@@ -182,8 +182,8 @@ const columns = [{
 ## 在 TypeScript 中使用
 
 ```tsx
-import { Table } from 'antd';
-import { ColumnProps } from 'antd/lib/table';
+import { Table } from 'zeal-cube';
+import { ColumnProps } from 'zeal-cube/lib/table';
 
 interface IUser {
   key: number;

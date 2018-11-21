@@ -14,7 +14,7 @@ title:
 For multi-line input.
 
 ````jsx
-import { Input } from 'antd';
+import { Input } from 'zeal-cube';
 
 const { TextArea } = Input;
 

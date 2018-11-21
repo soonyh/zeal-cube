@@ -177,8 +177,8 @@ Properties for row selection.
 ## Using in TypeScript
 
 ```tsx
-import { Table } from 'antd';
-import { ColumnProps } from 'antd/lib/table';
+import { Table } from 'zeal-cube';
+import { ColumnProps } from 'zeal-cube/lib/table';
 
 interface IUser {
   key: number,

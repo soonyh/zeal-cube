@@ -14,7 +14,7 @@ title:
 The count will be animated as it changes.
 
 ````jsx
-import { Badge, Button, Icon, Switch } from 'antd';
+import { Badge, Button, Icon, Switch } from 'zeal-cube';
 
 const ButtonGroup = Button.Group;
 

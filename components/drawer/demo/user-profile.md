@@ -14,7 +14,7 @@ title:
 Use when you need to quickly preview the outline of the object. Such as list item preview.
 
 ```jsx
-import { Drawer, List, Avatar, Divider, Col, Row } from 'antd';
+import { Drawer, List, Avatar, Divider, Col, Row } from 'zeal-cube';
 
 const pStyle = {
   fontSize: 16,

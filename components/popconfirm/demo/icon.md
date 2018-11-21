@@ -14,7 +14,7 @@ title:
 Set `icon` props to customize the icon.
 
 ````jsx
-import { Popconfirm, Icon } from 'antd';
+import { Popconfirm, Icon } from 'zeal-cube';
 
 ReactDOM.render(
   <Popconfirm title="Are you sure？" icon={<Icon type="question-circle-o" style={{ color: 'red' }} />}>

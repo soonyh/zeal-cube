@@ -14,7 +14,7 @@ title:
 To use `confirm()` to popup a confirmation modal dialog.
 
 ````jsx
-import { Modal, Button } from 'antd';
+import { Modal, Button } from 'zeal-cube';
 
 const confirm = Modal.confirm;
 

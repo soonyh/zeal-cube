@@ -15,7 +15,7 @@ title:
 An options object can be provided to `autosize` to specify the minimum and maximum number of lines the textarea will automatically adjust.
 
 ````jsx
-import { Input } from 'antd';
+import { Input } from 'zeal-cube';
 
 const { TextArea } = Input;
 

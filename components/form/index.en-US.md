@@ -217,8 +217,8 @@ See more advanced usage at [async-validator](https://github.com/yiminghe/async-v
 ## Using in TypeScript
 
 ```jsx
-import { Form } from 'antd';
-import { FormComponentProps } from 'antd/lib/form';
+import { Form } from 'zeal-cube';
+import { FormComponentProps } from 'zeal-cube/lib/form';
 
 interface UserFormProps extends FormComponentProps {
   age: number;

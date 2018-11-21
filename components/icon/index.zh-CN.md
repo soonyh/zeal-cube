@@ -117,7 +117,7 @@ ReactDOM.render(<MyIcon type="icon-example" />, mountedNode);
 ```
 
 ```jsx
-import { Icon } from 'antd';
+import { Icon } from 'zeal-cube';
 import MessageSvg from 'path/to/message.svg'; // path to your '*.svg' file.
 
 ReactDOM.render(

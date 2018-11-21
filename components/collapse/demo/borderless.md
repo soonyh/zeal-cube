@@ -14,7 +14,7 @@ title:
 A borderless style of Collapse.
 
 ````jsx
-import { Collapse } from 'antd';
+import { Collapse } from 'zeal-cube';
 
 const Panel = Collapse.Panel;
 

@@ -14,7 +14,7 @@ title:
 The basic example.
 
 ````jsx
-import { Popconfirm, message } from 'antd';
+import { Popconfirm, message } from 'zeal-cube';
 
 function confirm(e) {
   console.log(e);

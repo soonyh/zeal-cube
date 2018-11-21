@@ -125,6 +125,14 @@ export { default as Upload } from './upload';
 
 export { default as version } from './version';
 
-export { default as Ellipsis } from './Ellipsis';
+export { default as Ellipsis } from './ellipsis';
 
-export { default as Counter } from './Counter';
+export { default as CountDown } from './count-down';
+
+export { default as NumberInfo } from './number-info';
+
+export { default as NoticeIcon } from './notice-icon';
+
+export { default as Trend } from './trend';
+
+export { default as Counter } from './counter';

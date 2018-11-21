@@ -14,7 +14,7 @@ title:
 To show close button.
 
 ````jsx
-import { Alert } from 'antd';
+import { Alert } from 'zeal-cube';
 
 const onClose = function (e) {
   console.log(e, 'I was closed.');

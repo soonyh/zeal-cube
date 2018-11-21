@@ -12,8 +12,8 @@ title: LocaleProvider
 `LocaleProvider` takes use of [context](https://facebook.github.io/react/docs/context.html), a feature of React, to accomplish global effectiveness by wrapping the app only once.
 
 ```jsx
-import { LocaleProvider } from 'antd';
-import fr_FR from 'antd/lib/locale-provider/fr_FR';
+import { LocaleProvider } from 'zeal-cube';
+import fr_FR from 'zeal-cube/lib/locale-provider/fr_FR';
 import 'moment/locale/fr';
 
 ...

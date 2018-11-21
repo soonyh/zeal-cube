@@ -14,7 +14,7 @@ title:
 The badge will display `title` when hovered over, instead of `count`.
 
 ````jsx
-import { Badge } from 'antd';
+import { Badge } from 'zeal-cube';
 
 ReactDOM.render(
   <div>

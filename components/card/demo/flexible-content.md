@@ -15,7 +15,7 @@ You can use `Card.Meta` to support more flexible content.
 
 
 ````jsx
-import { Card } from 'antd';
+import { Card } from 'zeal-cube';
 
 const { Meta } = Card;
 

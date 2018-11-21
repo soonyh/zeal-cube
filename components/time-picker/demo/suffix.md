@@ -15,7 +15,7 @@ title:
 Click `TimePicker`, and then we could select or input a time in panel.
 
 ````jsx
-import { TimePicker, Icon } from 'antd';
+import { TimePicker, Icon } from 'zeal-cube';
 import moment from 'moment';
 
 function onChange(time, timeString) {

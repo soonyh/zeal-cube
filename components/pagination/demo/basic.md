@@ -14,7 +14,7 @@ title:
 Basic pagination.
 
 ````jsx
-import { Pagination } from 'antd';
+import { Pagination } from 'zeal-cube';
 
 ReactDOM.render(<Pagination defaultCurrent={1} total={50} />, mountNode);
 ````

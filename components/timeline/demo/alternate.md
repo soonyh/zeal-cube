@@ -14,7 +14,7 @@ title:
 Alternate timeline.
 
 ````jsx
-import { Timeline, Icon } from 'antd';
+import { Timeline, Icon } from 'zeal-cube';
 
 ReactDOM.render(
   <Timeline mode="alternate">

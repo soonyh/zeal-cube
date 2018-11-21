@@ -16,7 +16,7 @@ title:
 Customize suggestions.
 
 ````jsx
-import { Mention } from 'antd';
+import { Mention } from 'zeal-cube';
 
 const Nav = Mention.Nav;
 

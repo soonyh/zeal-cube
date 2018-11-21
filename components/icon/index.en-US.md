@@ -114,7 +114,7 @@ You can import SVG icon as an react component by using `webpack` and [`@svgr/web
 ```
 
 ```jsx
-import { Icon } from 'antd';
+import { Icon } from 'zeal-cube';
 import MessageSvg from 'path/to/message.svg'; // path to your '*.svg' file.
 
 ReactDOM.render(

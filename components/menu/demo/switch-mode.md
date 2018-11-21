@@ -14,7 +14,7 @@ title:
 Show the dynamic switching mode (between 'inline' and 'vertical').
 
 ````jsx
-import { Menu, Icon, Switch } from 'antd';
+import { Menu, Icon, Switch } from 'zeal-cube';
 
 const { SubMenu } = Menu;
 

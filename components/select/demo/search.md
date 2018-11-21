@@ -14,7 +14,7 @@ title:
 Search the options while expanded.
 
 ````jsx
-import { Select } from 'antd';
+import { Select } from 'zeal-cube';
 
 const Option = Select.Option;
 

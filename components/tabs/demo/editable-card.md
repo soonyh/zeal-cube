@@ -16,7 +16,7 @@ Only card type Tabs support adding & closable.
 +Use `closable={false}` to disable close.
 
 ````jsx
-import { Tabs } from 'antd';
+import { Tabs } from 'zeal-cube';
 
 const TabPane = Tabs.TabPane;
 

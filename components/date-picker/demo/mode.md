@@ -14,7 +14,7 @@ title:
 Determing which panel to show with `mode` and `onPanelChange`.
 
 ````jsx
-import { DatePicker } from 'antd';
+import { DatePicker } from 'zeal-cube';
 
 const { RangePicker } = DatePicker;
 

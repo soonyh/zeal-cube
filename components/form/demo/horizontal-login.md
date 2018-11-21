@@ -14,7 +14,7 @@ title:
 Horizontal login form is often used in navigation bar.
 
 ````jsx
-import { Form, Icon, Input, Button } from 'antd';
+import { Form, Icon, Input, Button } from 'zeal-cube';
 
 const FormItem = Form.Item;
 

@@ -1,7 +1,7 @@
 ---
-title: Ellipsis 
-cols: 1
-order: 10
+category: Components
+type: General
+title: Ellipsis
 ---
 
 When the text is too long, the Ellipsis automatically shortens it according to its length or the maximum number of lines.

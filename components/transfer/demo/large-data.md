@@ -15,7 +15,7 @@ title:
 2000 items.
 
 ````jsx
-import { Transfer } from 'antd';
+import { Transfer } from 'zeal-cube';
 
 class App extends React.Component {
   state = {

@@ -1,6 +1,6 @@
 {
   "name": "zeal-cube",
-  "version": "1.0.12",
+  "version": "1.0.17",
   "title": "zeal-cube",
   "description": "Fork Ant design@3.10.7 and integrate custom components",
   "homepage": "https://github.com/soonyh/zeal-cube",
@@ -44,6 +44,7 @@
     "intersperse": "^1.0.0",
     "lodash": "^4.17.11",
     "moment": "^2.22.2",
+    "numeral": "^2.0.6",
     "omit.js": "^1.0.0",
     "prop-types": "^15.6.2",
     "raf": "^3.4.0",
@@ -164,7 +165,8 @@
     "typescript": "~3.1.1",
     "unified": "^7.0.0",
     "xhr-mock": "^2.4.1",
-    "xhr2": "^0.1.4"
+    "xhr2": "^0.1.4",
+    "zeal-cube": "^1.0.17"
   },
   "scripts": {
     "test": "jest --config .jest.js --verbose=false",
@@ -185,8 +187,14 @@
     "tsc": "tsc",
     "start": "rimraf _site && mkdir _site && node ./scripts/generateColorLess.js && cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js",
     "start:preact": "node ./scripts/generateColorLess.js && cross-env NODE_ENV=development REACT_ENV=preact bisheng start -c ./site/bisheng.config.js",
+    "site": "cross-env NODE_ENV=production bisheng build --ssr -c ./site/bisheng.config.js && node ./scripts/generateColorLess.js",
+    "predeploy": "antd-tools run clean && npm run site && cp netlify.toml _site && cp -r .circleci _site",
+    "deploy": "bisheng gh-pages --push-only",
+    "deploy:china-mirror": "git checkout gh-pages && git pull origin gh-pages && git push git@gitee.com:ant-design/ant-design.git gh-pages",    
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt",
     "pub": "rimraf dist es lib && npm run dist && npm run compile && npm publish",
+    "prepublish": "antd-tools run guard",
+    "pre-publish": "npm run test-all && node ./scripts/prepub",
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tsc && node node_modules/tslint/bin/tslint",
     "lint-staged:es": "eslint ./.*.js ./webpack.config.js",

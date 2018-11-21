@@ -14,8 +14,8 @@ title:
 Wrap your app with `LocaleProvider`, and apply the corresponding language package.
 
 ````jsx
-import { Pagination, LocaleProvider } from 'antd';
-import zhCN from 'antd/lib/locale-provider/zh_CN';
+import { Pagination, LocaleProvider } from 'zeal-cube';
+import zhCN from 'zeal-cube/lib/locale-provider/zh_CN';
 
 const App = () => (
   <div>
