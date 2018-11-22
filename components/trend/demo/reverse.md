@@ -10,8 +10,8 @@ import { Trend } from 'zeal-cube';
 
 ReactDOM.render(
   <div>
-    <Trend flag="up" reverseColor={true} >12%</Trend>
-    <Trend flag="down" reverseColor={true} style={{ marginLeft: 8 }}>11%</Trend>
-  </div>
-, mountNode);
+    <Trend flag="up">12%</Trend>
+    <Trend flag="down" style={{ marginLeft: 8 }}>11%</Trend>
+  </div>,
+  mountNode);
 ````

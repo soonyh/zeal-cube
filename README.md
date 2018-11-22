@@ -68,3 +68,11 @@ import 'zeal-cube/dist/zeal-cube.css';  // or 'zeal-cube/dist/zeal-cube.less'
 参考 [国际化文档](http://ant.design/docs/react/i18n-cn)。
 
 ## 🔗 链接
+
+`Value must be omitted for boolean attributes`
+
+表示 默认 属性是true 不需要设置 xxx={true} 
+
+`Trailing spaces not allowed`
+
+后面的空格是不允许的

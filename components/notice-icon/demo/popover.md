@@ -166,8 +166,8 @@ ReactDOM.render(
         emptyImage="https://gw.alipayobjects.com/zos/rmsportal/HsIsxMZiWKrNUavQUXqx.svg"
       />
     </NoticeIcon>
-  </div>
-, mountNode);
+  </div>,
+  mountNode);
 ````
 
 ```css

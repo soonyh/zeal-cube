@@ -25,6 +25,6 @@ ReactDOM.render(
       status="up"
       subTotal={17.1}
     />
-  </div>
-, mountNode);
+  </div>,
+  mountNode);
 ````
