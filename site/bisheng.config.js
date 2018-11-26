@@ -32,6 +32,7 @@ module.exports = {
   },
   theme: './site/theme',
   htmlTemplate: './site/theme/static/template.html',
+  root: '/zeal-cube/',
   themeConfig: {
     categoryOrder: {
       'Ant Design': 0,
