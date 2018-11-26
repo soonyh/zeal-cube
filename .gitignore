@@ -68,7 +68,6 @@ components/mention/**/*.jsx
 components/menu/**/*.jsx
 components/message/**/*.jsx
 components/modal/**/*.jsx
-components/notice-icon/**/*.jsx
 components/notification/**/*.jsx
 components/pagination/**/*.jsx
 components/popconfirm/**/*.jsx
