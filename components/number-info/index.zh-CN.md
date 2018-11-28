@@ -3,6 +3,7 @@ title: NumberInfo
 subtitle: 数据文本
 category: Components
 type: 通用
+cols: 1
 ---
 
 常用在数据卡片中，用于突出展示某个业务数据。

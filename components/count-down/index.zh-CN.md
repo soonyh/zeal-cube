@@ -3,6 +3,7 @@ title: CountDown
 subtitle: 倒计时
 category: Components
 type: 通用
+cols: 1
 ---
 
 倒计时组件。

@@ -6,8 +6,8 @@ import { addLocaleData, IntlProvider } from 'react-intl';
 import 'moment/locale/zh-cn';
 import { LocaleProvider } from 'antd';
 import zhCN from 'antd/lib/locale-provider/zh_CN';
-import Header from './Header';
-import Footer from './Footer';
+// import Header from './Header';
+// import Footer from './Footer';
 import enLocale from '../../en-US';
 import cnLocale from '../../zh-CN';
 import * as utils from '../utils';
@@ -100,9 +100,9 @@ export default class Layout extends React.Component {
         <IntlProvider locale={appLocale.locale} messages={appLocale.messages}>
           <LocaleProvider locale={appLocale.locale === 'zh-CN' ? zhCN : null}>
             <div className="page-wrapper">
-              <Header {...restProps} />
+              {/* <Header {...restProps} /> */}
               {children}
-              <Footer {...restProps} />
+              {/* <Footer {...restProps} /> */}
             </div>
           </LocaleProvider>
         </IntlProvider>

@@ -5,7 +5,7 @@ import QueueAnim from 'rc-queue-anim';
 import ScrollParallax from 'rc-scroll-anim/lib/ScrollParallax';
 import { Link } from 'bisheng/router';
 import { FormattedMessage } from 'react-intl';
-import GitHubButton from 'react-github-button';
+// import GitHubButton from 'react-github-button';
 import BannerImage from './BannerImage';
 import * as utils from '../utils';
 
@@ -63,27 +63,27 @@ class Banner extends React.PureComponent {
             type="bottom"
           >
             <h1 key="h1">
-              Ant Design
+              Zeal Cube
             </h1>
             <p key="p">
               <FormattedMessage id="app.home.introduce" />
             </p>
             <div className="banner-btns" key="buttons">
-              <Link className="banner-btn components" to={utils.getLocalizedPathname('/docs/react/introduce', isZhCN)}>
+              <Link className="banner-btn components" to={utils.getLocalizedPathname('/components/button/', isZhCN)}>
                 <FormattedMessage id="app.home.getting-started" />
               </Link>
-              <Link className="banner-btn language" to={utils.getLocalizedPathname('/docs/spec/introduce', isZhCN)}>
+              {/* <Link className="banner-btn language" to={utils.getLocalizedPathname('/docs/spec/introduce', isZhCN)}>
                 <FormattedMessage id="app.home.design-language" />
-              </Link>
-              {!isMobile && (
+              </Link> */}
+              {/* {!isMobile && (
                 <GitHubButton
                   key="github-button"
                   size="large"
                   type="stargazers"
-                  namespace="ant-design"
-                  repo="ant-design"
+                  namespace="soonyh"
+                  repo="zeal-cube"
                 />
-              )}
+              )} */}
             </div>
           </QueueAnim>
           {!isMobile && (

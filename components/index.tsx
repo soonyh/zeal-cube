@@ -135,4 +135,14 @@ export { default as NoticeIcon } from './notice-icon';
 
 export { default as Trend } from './trend';
 
+export { default as AvatarList } from './avatar-list';
+
+export { default as Exception } from './exception';
+
+export { default as Result } from './result';
+
+export { default as FooterToolbar } from './footer-toolbar';
+
+export { default as DescriptionList } from './description-list';
+
 export { default as Counter } from './counter';

@@ -2,6 +2,7 @@
 title: CountDown
 category: Components
 type: General
+cols: 1
 ---
 
 Simple CountDown Component.

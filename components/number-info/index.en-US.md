@@ -2,6 +2,7 @@
 title: NumberInfo
 category: Components
 type: General
+cols: 1
 ---
 
 Often used in data cards for highlighting the business data.

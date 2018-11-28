@@ -29,20 +29,26 @@ antd-tools run clean // 清除_site和_data
 
 ## ✨ 组件封装规范
 
-- 支持*.jsx和*.tsx
-- 放在components下，目录约定
+- 支持*.jsx，*.tsx和less
+- 组件源码统一放在`components`文件夹，组件源码目录约定如下：
 
 ```javascript              
-  |--- ellipsis                                 # 小写，以“-”连接。如: button、back-top                  
-  |    |--- index.zh-CN.md                      # API文档 
-  |    |--- demo                                # 用例文档                  
-  |    |    |--- line.md                        
-  |    |    |--- number.md                      
-  |    |--- index.jsx                           #                   
-  |    |--- index.less                          #  
+  |--- ellipsis                                 # 组件名。小写，以“-”连接。如: button、back-top                  
+  |    |--- index.zh-CN.md                      # 必须要有，用于生成API文档 
+  |    |--- demo                                # 必须要有，否则api文档无法生成对应的demo                  
+  |    |    |--- line.md                        # demo1 
+  |    |    |--- number.md                      # demo2
+  |    |--- index.jsx                           # 组件源码                  
+  |    |--- index.less                          # 样式
   |    |--- index.test.js                       # 测试   
 ```  
+- css命名格式：cube-组件名，禁止使用css module
 
+```css
+.cube-ellipsis{
+
+}
+```
  
 ## 🔨 示例
 
@@ -76,3 +82,7 @@ import 'zeal-cube/dist/zeal-cube.css';  // or 'zeal-cube/dist/zeal-cube.less'
 `Trailing spaces not allowed`
 
 后面的空格是不允许的
+
+.stylelintrc 配置`"selector-pseudo-class-no-unknown": null,`
+
+允许less中使用:global

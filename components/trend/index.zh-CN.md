@@ -3,6 +3,7 @@ title: Trend
 subtitle: 趋势标记
 category: Components
 type: 通用
+cols: 1
 ---
 
 趋势符号，标记上升和下降趋势。通常用绿色代表“好”，红色代表“不好”，股票涨跌场景除外。
