@@ -1,11 +1,5 @@
 <h1 align="center">Zeal Cube</h1>
 
-<div align="center">
-
-
-
-</div>
-
 Fork antd@3.10.1 并集成了自定义样式以及pro-antd@2.0.0的部分组件. [API文档](http://soonyh.coding.me/zeal-cube/index-cn)
 
 ## 安装
