@@ -75,19 +75,19 @@ import 'zeal-cube/dist/zeal-cube.css';  // or 'zeal-cube/dist/zeal-cube.less'
 
 ## 🔗 链接
 
-`Value must be omitted for boolean attributes`
+- `Value must be omitted for boolean attributes`
 
 表示 默认 属性是true 不需要设置 xxx={true} 
 
-`Trailing spaces not allowed`
+- `Trailing spaces not allowed`
 
 后面的空格是不允许的
 
-.stylelintrc 配置`"selector-pseudo-class-no-unknown": null,`
+- .stylelintrc 配置`"selector-pseudo-class-no-unknown": null,`
 
 允许less中使用:global
 
-`at-rule-empty-line-before`
+- `at-rule-empty-line-before`
 @import、@media 符号必须上面要空一行,且左边顶格
 
 ```less
@@ -101,3 +101,8 @@ import 'zeal-cube/dist/zeal-cube.css';  // or 'zeal-cube/dist/zeal-cube.less'
 }
 }
 ```
+
+- `error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style`
+
+`.eslintrc.js` 添加"linebreak-style": 0
+
