@@ -77,7 +77,7 @@ export default class Article extends React.Component {
     const { intl: { locale } } = this.context;
     const isNotTranslated = locale === 'en-US' && typeof title === 'object';
     return (
-      <DocumentTitle title={`${title[locale] || title} - Ant Design`}>
+      <DocumentTitle title={`${title[locale] || title} - Zeal Cube`}>
         <article className="markdown" ref={(node) => { this.node = node; }}>
           {isNotTranslated && (
             <Alert

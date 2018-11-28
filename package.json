@@ -167,7 +167,7 @@
     "unified": "^7.0.0",
     "xhr-mock": "^2.4.1",
     "xhr2": "^0.1.4",
-    "zeal-cube": "^1.0.17"
+    "zeal-cube": "^1.0.27"
   },
   "scripts": {
     "test": "jest --config .jest.js --verbose=false",

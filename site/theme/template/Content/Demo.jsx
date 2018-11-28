@@ -134,7 +134,7 @@ export default class Demo extends React.Component {
     const sourceCode = this.getSourceCode();
 
     const codepenPrefillConfig = {
-      title: `${localizedTitle} - Ant Design Demo`,
+      title: `${localizedTitle} - Zeal Cube Demo`,
       html,
       js: sourceCode
         .replace(/import\s+\{\s+(.*)\s+\}\s+from\s+'antd';/, 'const { $1 } = antd;')
@@ -156,7 +156,7 @@ export default class Demo extends React.Component {
       js_pre_processor: 'typescript',
     };
     const riddlePrefillConfig = {
-      title: `${localizedTitle} - Ant Design Demo`,
+      title: `${localizedTitle} - Zeal Cube Demo`,
       js: sourceCode,
       css: prefillStyle,
     };

@@ -16,7 +16,7 @@ export default function NoticeList({
 }) {
   if (data.length === 0) {
     return (
-      <div className='cube-noticIcon-notFound'>
+      <div className='cube-noticeIcon-notFound'>
         {emptyImage ? <img src={emptyImage} alt="not found" /> : null}
         <div>{emptyText || locale.emptyText}</div>
       </div>
@@ -24,7 +24,7 @@ export default function NoticeList({
   }
   return (
     <div>
-      <List className='cube-noticIcon-list'>
+      <List className='cube-noticeIcon-list'>
         {data.map((item, i) => {
           const itemCls = classNames('item', {
             read: item.read,
@@ -63,7 +63,7 @@ export default function NoticeList({
         })}
       </List>
       {showClear ? (
-        <div className='cube-noticIcon-clear' onClick={onClear}>
+        <div className='cube-noticeIcon-clear' onClick={onClear}>
           {locale.clear} {title}
         </div>
       ) : null}

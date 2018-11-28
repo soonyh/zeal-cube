@@ -61,7 +61,7 @@ export default class NoticeIcon extends PureComponent {
     });
     return (
       <Spin spinning={loading} delay={0}>
-        <Tabs className='cube-noticIcon-tabs' onChange={this.onTabChange}>
+        <Tabs className='cube-noticeIcon-tabs' onChange={this.onTabChange}>
           {panes}
         </Tabs>
       </Spin>
@@ -70,12 +70,12 @@ export default class NoticeIcon extends PureComponent {
 
   render() {
     const { className, count, popupAlign, popupVisible, onPopupVisibleChange, bell } = this.props;
-    const noticeButtonClass = classNames(className, 'cube-noticIcon-noticeButton');
+    const noticeButtonClass = classNames(className, 'cube-noticeIcon-noticeButton');
     const notificationBox = this.getNotificationBox();
-    const NoticeBellIcon = bell || <Icon type="bell" className='cube-noticIcon-icon' />;
+    const NoticeBellIcon = bell || <Icon type="bell" className='cube-noticeIcon-icon' />;
     const trigger = (
       <span className={noticeButtonClass}>
-        <Badge count={count} style={{ boxShadow: 'none' }} className='cube-noticIcon-badge'>
+        <Badge count={count} style={{ boxShadow: 'none' }} className='cube-noticeIcon-badge'>
           {NoticeBellIcon}
         </Badge>
       </span>
@@ -91,7 +91,7 @@ export default class NoticeIcon extends PureComponent {
       <Popover
         placement="bottomRight"
         content={notificationBox}
-        popupClassName='cube-noticIcon-popover'
+        popupClassName='cube-noticeIcon-popover'
         trigger="click"
         arrowPointAtCenter
         popupAlign={popupAlign}
