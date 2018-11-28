@@ -86,3 +86,18 @@ import 'zeal-cube/dist/zeal-cube.css';  // or 'zeal-cube/dist/zeal-cube.less'
 .stylelintrc 配置`"selector-pseudo-class-no-unknown": null,`
 
 允许less中使用:global
+
+`at-rule-empty-line-before`
+@import、@media 符号必须上面要空一行,且左边顶格
+
+```less
+.cube-result {
+  text-align: center;
+  width: 72%;
+  margin: 0 auto;
+
+@media screen and (max-width: @screen-xs) {
+    width: 100%;
+}
+}
+```
