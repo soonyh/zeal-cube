@@ -205,7 +205,7 @@ export default class Button extends React.Component<ButtonProps, any> {
     const kids = (children || children === 0)
       ? React.Children.map(children, child => insertSpace(child, this.isNeedInserted())) : null;
 
-    const title= isChristmas ? 'Ho Ho Ho!' : rest.title;
+    const title= rest.title;
 
     if ('href' in rest) {
       return (
